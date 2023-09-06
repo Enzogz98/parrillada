@@ -1,0 +1,211 @@
+body{
+  background-color: #f1f8ff;
+  font-family: 'Heebo', sans-serif;
+}
+
+header {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    background-color: #0f172b; 
+    z-index: 100; 
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white; 
+    font-size: 18px;
+    padding: 0 20px;
+  }
+  
+  
+
+  .logo-container,
+  .button-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  
+  .logo-container i {
+    font-size: 24px; 
+    margin-right: 10px; 
+  }
+  
+  
+  .logo-container h4 {
+    font-size: 24px; 
+    color: #fea116; 
+  }
+  .button-container button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    margin-left: 2px;
+    padding: 5px 10px;
+  }
+  
+
+  .button-container button:hover {
+    color: #333;
+  }
+  .banner {
+    position: relative;
+  }
+  
+  .banner-content {
+    position: relative;
+    text-align: center;
+  }
+
+  .banner img{
+    filter: opacity(60%);
+    padding-top: 40px 40px;
+    margin-top: 0px;
+    width: 100%;
+    max-height: 500px; 
+    height: auto;
+
+  }
+
+  .banner .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    color: #fff; 
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .banner h1 {
+    font-size: 3rem;
+    max-width: 650px;
+  }
+  
+  .banner p {
+    font-size: 1.2rem;
+    margin-top: 20px; 
+    max-width: 650px; 
+    margin: 0 auto;
+  }
+  
+
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .cards i{
+    font-size: 60px; 
+    margin-right: 10px; 
+  }
+  
+  .card {
+    height: 500px;
+    flex: 1; 
+    max-width: calc(25% - 20px); 
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card h5 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  .nosotros {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+    align-items: center; 
+  }
+  
+  .images {
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-evenly;
+    align-items: stretch;
+    margin: 10px;
+    padding: 10px;
+
+  }
+  .large {
+    width: 350px; 
+  }
+  
+  .small {
+    width: 300px; 
+    height: 250px;
+ 
+  }
+  .content {
+    flex: 1; 
+  }
+  .content h4{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  .content p{
+    font-size: 1.7rem;
+    color: #555;
+  }
+
+  #nos{
+    color: #fea116;
+    font-family: 'Pacifico', cursive;
+    position: relative; 
+  }
+
+
+  .menu {
+    align-items: center;
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  .menu-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Divide en 2 columnas */
+    gap: 20px;
+  }
+  
+  .menu-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .menu-cards p {
+    display: inline-block; 
+    vertical-align: middle; 
+    margin-right: 10px; 
+  }
+  
+  
+  
+  
+  
+  
